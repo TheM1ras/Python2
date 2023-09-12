@@ -1,0 +1,11 @@
+import numpy as np
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+f = int(input())
+A = np.array([[a, b], [d, e]])
+b = np.array([c, f])
+x = np.linalg.solve(A, b)
+print(x)
